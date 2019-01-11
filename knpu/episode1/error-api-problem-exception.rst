@@ -131,9 +131,7 @@ a debug statement so we can test it::
     }
 
 To try it out, just open up the app in your browser and go to any 404 page,
-since a 404 is a type of exception:
-
-    http://localhost:8000/foo/bar
+since a 404 is a type of exception: ``http://localhost:8000/foo/bar``
 
 Awesome! We see the ``die`` code.
 
