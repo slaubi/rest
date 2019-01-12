@@ -36,7 +36,7 @@ this we can just copy from our error handler code::
             $data = $apiProblem->toArray();
             // making type a URL, to a temporarily fake page
             if ($data['type'] != 'about:blank') {
-                $data['type'] = 'http://localhost:8000/docs/errors#'.$data['type'];
+                $data['type'] = 'http://localhost:8000/api/docs/errors#'.$data['type'];
             }
             $response = new JsonResponse(
                 $data,
